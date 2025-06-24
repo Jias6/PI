@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    height: 6em;
+    align-items: center;
+    background-color: #192c40;
+    justify-content: space-between;
+}
+
+.header h1{
+    font-family: "michroma", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin-left: 6.5rem;
+}
+.header a{
+    margin-right: 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s ease;
+}
+.header a:hover{
+    color: #8c8c8c;
+    transition: 0.3s ease;
+}
+.header .abaAtual {
+    color: #8c8c8c;
+    text-decoration: underline;
+}
+
+.logoSite{
+    width: 9em;
+    height: 9em;
+    margin-left: -1.8em;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-self: flex-end;
+    font-size: 1.1em;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-family: "Afacad", sans-serif;
+}
+
+.menu a:hover{
+    color: #8C8C8C;
+}
+
+.menu li{
+   display: inline;
+   margin-right: 1em;
+}
+
+
+ .container {
+    display: flex;
+    flex-direction: column; /* garante empilhamento vertical */
+    align-items: center;    /* opcional: centraliza horizontalmente */
+    gap: 0px;               /* controla o espaçamento entre as imagens */
+  }
+
+  .imagem {
+    width: fill;
+  }
+
+.centro{
+    margin: 2em 5em 0em 5em;
+    text-align: center;
+    color: #fff;
+    text-align: center;
+    font-family: Afacad;
+    font-style: normal;
+    line-height: normal;
+    font-size: 2.5em;
+}
+
+.texto{
+    margin: 3em;
+    color: #fff;
+    font-family: Afacad;
+    font-size: 1.5em;
+    font-style: normal;
+    line-height: normal;
+}
+
+main{
+    background-color: #000;
+    display: flex;
+    flex-direction: column;
+}
+
+.centro2{
+    margin: 2em 5em 0em 5em;
+    text-align: center;
+    color: #000;
+    font-family: Afacad;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.5em;
+}
+
+.container3{
+    background-color: #FFF;
+    display: flex;
+}
+.texto2{
+    margin: 2em 2em 2em 4em;
+    color: #000;
+    font-family: Afacad;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.1em;
+    max-width: 13em;
+}
+.container4{
+    background-color: #FFF;
+    display: flex;
+    flex-direction: row;
+
+}
+.center3{
+    text-align: center;
+    margin: 2em 5em 2em 5em;
+    color: #FFF;
+    font-family: Afacad;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    font-size: 2em;
+}
+
+.container5{
+    background-color: #7d7d7d;
+    display: flex;
+}
+.texto3{
+    margin:0em 5em 5em 2.9em;
+    color: #FFF;
+    font-family: Afacad;    
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    font-size: 1.5em;
+}
+.container6{
+    background-color: #7d7d7d;
+    display: flex;
+}
+.container7{
+    display: flex;
+}
+
+.container8{
+    display: flex;
+}
+
+.centro4{
+    margin: 2em 5em 3em 5em;
+    color: #FFF;
+    text-align: center;
+    font-family: Afacad;
+    font-size: 2em;
+    font-style: normal;
+    line-height: normal;
+}
+
+.texto4{
+    margin:0em 8em 3em 3.3em ;
+    color: #FFF;
+    font-family: Afacad;
+    font-style: normal;
+    line-height: normal;
+    font-size: 1.4em;
+}
+
+.container9{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Afacad", sans-serif;
+    margin: 0em 0em 0em 1em;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+    background-color: black;
+}
+footer h1{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 1rem;
+}
+footer p{
+    color: white;
+    margin-left: 1rem;
+}
+
+footer .insta{
+    width: 3.3rem;
+}
+footer .x{
+    width: 3rem;
+}
+.redes{
+    margin-top: 1em;
+    display: flex;
+    gap: 5rem;
+}
+
+.buraco{
+    display: flex;
+    height: 40%;
+    width: 40%;
+    float: right;
+    margin: 2% 0% 1% 15%;
+}
+
+.sistema{
+    background-image: url(../imagens/sistema\ solar.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.astro{
+    color: #fff;
+    font-family: "Afacad", sans-serif;
+}
+
+.estre{
+    background-image: url(../imagens/céu\ estrelado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

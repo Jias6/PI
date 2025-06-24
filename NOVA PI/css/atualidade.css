@@ -1,0 +1,234 @@
+body {
+    background-color: #000;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    height: 6em;
+    align-items: center;
+    background-color: #192c40;
+    justify-content: space-between;
+}
+.header h1{
+    font-family: "michroma", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin-left: 6.5rem;
+}
+.header a{
+    margin-right: 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s ease;
+}
+.header a:hover{
+    color: #8c8c8c;
+    transition: 0.3s ease;
+}
+.header .abaAtual {
+    color: #8c8c8c;
+    text-decoration: underline;
+}
+.logoSite{
+    width: 9em;
+    height: 9em;
+    margin-left: -1.8em;
+}
+
+
+.news-title {
+    font-size: 25px;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    color: #f40000;
+    font-family: "Montserrat", sans-serif;
+}
+
+.news-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; 
+    margin: 20px auto;
+}
+
+
+.news-container:first-of-type .logoNasa,
+.news-container:first-of-type .foguete {
+    flex: 1 1 45%;
+    max-width: 45%;
+    min-width: 300px;
+}
+
+
+.news-container:not(:first-of-type) .Astronauta,
+.news-container:not(:first-of-type) .roboLua,
+.news-container:not(:first-of-type) .noticiaExtra {
+    flex: 1 1 30%;
+    max-width: 30%;
+    min-width: 200px;
+}
+
+.logoNasa,
+.foguete,
+.noticiaExtra,
+.Astronauta,
+.roboLua {
+    flex: 1;
+    text-align: center;
+    position: relative; 
+    max-width: 100%;
+}
+
+.logoNasa img,
+.foguete img,
+.noticiaExtra img,
+.Astronauta img,
+.roboLua img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    filter: brightness(50%);
+}
+
+.text-overlay {
+    position: absolute; 
+    bottom: 10px; 
+    left: 10px; 
+    color: white;
+    font-family: "Michroma", sans-serif;
+    text-align: left; 
+}
+
+.text-overlay h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.text-overlay p {
+    margin: 5px 0 0;    
+    font-size: 14px;
+}
+
+.logoNasa h3,
+.foguete h3 {
+    font-family: "Afacad", sans-serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin: 10px 0 5px;
+    text-align:left  ;
+    float: left;
+}
+
+.logoNasa p,
+.foguete p {
+    font-family: "Michroma", sans-serif;
+    font-size: 10px;
+    color: #e2e1e1;
+    text-align:justify;
+    margin: 0 10px;
+}
+
+.noticiaExtra h3,
+.Astronauta h3,
+.roboLua h3 {
+    font-family: "Afacad", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0 5px;
+    text-align:left  ;
+    float: left;
+}
+.noticiaExtra p,
+.Astronauta p,  
+.roboLua p {
+    font-family: "Michroma", sans-serif;
+    font-size: 10px;
+    color: #e2e1e1;
+    text-align:justify;
+    margin: 0 10px;
+}
+
+.live-block {
+    color: #ff0000;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 25px;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.eventos{
+    
+    background-color: white;
+}
+
+.eventos h2{
+    font-family: "Montserrat", sans-serif;
+    text-align: center;
+    color: #000000;
+}
+.eventos h1{
+    font-family: "Michroma", sans-serif;
+    font-size: 1.7rem;
+    background-color: #153ABF;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+    margin-bottom: 4rem;
+    margin-top: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+
+}
+.eventos ul {
+    
+    font-family: "Afacad", sans-serif;
+    font-size: 1rem;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.eventos li {
+    list-style: none;
+    margin: 0 0 1rem 0;
+    text-align: center;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+    background-color: black;
+    margin-top: -1rem;
+}
+footer h1{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 1rem;
+}
+footer p{
+    color: white;
+    margin-left: 1rem;
+}
+
+footer .insta{
+    width: 3.3rem;
+}
+footer .x{
+    width: 3rem;
+}
+.redes{
+    display: flex;
+    gap: 5rem;
+    
+    
+}

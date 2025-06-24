@@ -1,0 +1,232 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 6em;
+    align-items: center;
+    background-color: #192c40;
+    justify-content: space-between;
+}
+.header h1{
+    font-family: "michroma", sans-serif;
+    color: white;
+    font-weight: 400;
+    font-size: 1.7em;
+    margin-left: 6.5rem;
+}
+.header a{
+    margin-right: 1em;
+    font-size: 0.8em;
+    text-decoration: none;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    transition: 0.3s ease;
+}
+.header a:hover{
+    color: #8c8c8c;
+    transition: 0.3s ease;
+}
+.header .abaAtual {
+    color: #8c8c8c;
+    text-decoration: underline;
+}
+.logoSite{
+    width: 9em;
+    height: 9em;
+    margin-left: -1.8em;
+}
+
+
+.mainSite{
+    background-image: url(../imagens/ImagemTerra.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-position: center;
+    padding-top: 5rem;
+    
+}
+.mainSite h2{
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 4rem; 
+    margin: 0;
+    margin-left: 2rem;
+    
+    
+}
+.mainSite .p2{
+    color: white;
+    font-family: "Monteserrat", sans-serif;
+    margin: 1rem 4rem 0 3rem;
+    
+    
+}
+.cardList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    justify-content: center;
+    padding-bottom: 2rem;
+}
+.card1{
+    margin: 5rem 0.5rem 0.2rem 0.5rem;
+    padding: 2px;
+    text-align: justify;
+    background-image: url(../imagens/imgCard1.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    width: 25rem;
+    height: 30rem;
+
+    
+}
+.card2{
+    margin: 5rem 0.5rem 0.2rem 0.5rem;
+    padding: 2px;
+    text-align: justify;
+    background-image: url(../imagens/imgCard2.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    width: 25rem;
+    height: 30rem;
+    
+}
+.card3{
+    margin: 5rem 0.5rem 0.2rem 0.5rem;
+    padding: 2px;
+    text-align: justify;
+    background-image: url(../imagens/imgCard3.jpg);
+    background-size: cover;
+    border-radius: 15px;
+    width: 25rem;
+    height: 30rem;
+    
+    
+}
+    
+.card1 p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: justify;
+    margin: 6rem 1rem 0 1rem;
+    
+}
+.card2 p{
+    font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: justify;
+    margin: 6rem 1rem 0 1rem;
+}
+.card3 p{
+     font-weight: bold;
+    font-size: 1.5rem;
+    font-family: "Montserrat", sans-serif;
+    color: white;
+    text-align: justify;
+    margin: 6rem 1rem 0 1rem;
+}
+
+.noticia{
+    display: flex;
+    gap: 1.5rem;
+    padding-bottom: 1rem;
+    
+}
+.noticia img{
+    width: 30rem;
+    margin: 0.5rem 0.5rem 0.2rem 0.5rem;
+    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+}
+.noticia-texto {
+    font-family: "Montserrat", sans-serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.noticia-texto h2{
+    font-size: 3rem;
+    color: #021E73;   
+}
+.noticia-texto p{
+    font-weight: bold;
+}
+.noticia .link a{
+    color: #153ABF;
+    transition: 0.3s ease;
+}
+.noticia .link a:hover{
+    color: #021E73;
+}
+hr{
+    border: none;
+    height: 1.5px;
+    background-color: black;
+    margin: 1rem 0.7rem 1rem 0.7rem;
+    
+}
+.astro{
+    display: flex;
+    gap: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+.astro img{
+    width: 30rem;
+    margin: 0.5rem 0.5rem 0.2rem 0.5rem;
+    box-shadow: -4px 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    float: right;
+}
+.astro-texto{
+    font-family: "Montserrat", sans-serif;
+    flex-direction: column;
+    text-align: center;
+}
+.astro-texto h2{
+    font-size: 3rem;
+    color: #021E73;
+}
+.astro-texto h3{
+    font-size: 1.7rem;
+}
+.astro-texto p{
+    font-weight: bold;
+    margin-left: 0.5rem;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    padding-bottom: 1rem;
+    background-color: black;
+}
+footer h1{
+    font-size: 1.7rem;
+    color: white;
+    margin-left: 1rem;
+}
+footer p{
+    color: white;
+    margin-left: 1rem;
+}
+
+footer .insta{
+    width: 3.3rem;
+}
+footer .x{
+    width: 3rem;
+}
+.redes{
+    display: flex;
+    gap: 5rem;
+    
+}
+
